@@ -24,4 +24,4 @@
    Open your account and open its following<br/>
    Paste the above code in console and press <kbd>Enter</kbd><br/>
    Now type <code>unfollow();</code> and press <kbd>Enter</kbd> to start unfollowing users<br/>
-   If you want to stop the Bot for some reason type "stop();" and Press <kbd>Enter</kbd>
+   If you want to stop the Bot for some reason type <code>stop();</code> and Press <kbd>Enter</kbd>
