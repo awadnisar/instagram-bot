@@ -17,7 +17,7 @@ async function start(again = true){
 	if(again){
 		stop_unfollow = '';
 	}
-    console.warn('Bot Started Successfully');
+    console.warn('Bot Started Successfully (following)');
     for(var i = 0; i<100; i++){
 		if(stop_unfollow == 'break'){
 		break;
@@ -64,6 +64,7 @@ async function unfollow(again = true){
 	if(again){
 		stop_unfollow = '';
 	}
+	console.warn('Bot Started Successfully (unfollowing)');
 	var unfollow = document.querySelectorAll('._8A5w5');
 	for(var i=0; i<unfollow.length; i++){
 		if(stop_unfollow == 'break'){
@@ -72,6 +73,7 @@ async function unfollow(again = true){
 		unfollow[i].click();
 		var un = document.querySelector('.-Cab_');
 		un.click();
+		console.log('Unfollowed');
 		await sleep(5000);
 	}
 	if(stop_unfollow == 'break'){
