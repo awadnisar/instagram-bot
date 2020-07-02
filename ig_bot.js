@@ -1,4 +1,4 @@
-//Ig Follow/Unfollow Bot By Awad Nisar
+/*Ig Follow and Unfollow Bot By Awad Nisar*/
 var stop_unfollow = '', total_follows = 0, total_req = 0;
 function sleep(ms){
 	return new Promise(resolve => setTimeout(resolve, ms));
@@ -64,12 +64,12 @@ async function unfollow(again = true){
 	if(again){
 		stop_unfollow = '';
 	}
-	var input = document.querySelectorAll('._8A5w5');
-	for(var i=0; i<inputs.length; i++){
+	var unfollow = document.querySelectorAll('._8A5w5');
+	for(var i=0; i<unfollow.length; i++){
 		if(stop_unfollow == 'break'){
 			break;
 		}
-		input[i].click();
+		unfollow[i].click();
 		var un = document.querySelector('.-Cab_');
 		un.click();
 		await sleep(5000);
