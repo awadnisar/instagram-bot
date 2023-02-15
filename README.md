@@ -1,4 +1,4 @@
-# IG-bot
+# Instagram Bot
 <h2>Bot for instagram follow and unfollow</h2>
 
 <b><i>Here is a quick guide that how to use this</i></b><br/>
